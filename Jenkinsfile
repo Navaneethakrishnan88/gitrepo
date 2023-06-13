@@ -5,7 +5,7 @@ pipeline {
         stage('Clone') {
             steps {
                 // Checkout the source code from the repository
-                git 'https://github.com/Navaneethakrishnan88/application-deployment.git'
+                git 'https://github.com/Navaneethakrishnan88/gitrepo.git'
             }
         }
         
